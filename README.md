@@ -19,6 +19,7 @@ public class Example {}
 4. 代码规范参考 https://github.com/alibaba/p3c
 5. 请正确配置 `git config user.name` 以及 `git config user.email`
 6. `git commit` 时请尽可能使用英文
+7. 在对 `submodule` 进行更改之前 **请务必执行** `git checkout master`
 
 ## Markdown 书写规范
 
