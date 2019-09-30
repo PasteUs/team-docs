@@ -1,4 +1,4 @@
-# README
+# PasteUs README
 
 新人指引
 
