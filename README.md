@@ -11,10 +11,12 @@
  * Created by Lucien on 2019/10/01 00:17
  * （如果有必要，这里写一些额外的文件说明）
  */
+public class Example {}
 ```
 
 2. 日志一律使用 `@Slf4j`
 3. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
+4. 代码规范参考 https://github.com/alibaba/p3c
 
 ## Markdown 书写规范
 
