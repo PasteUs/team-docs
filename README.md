@@ -2,6 +2,20 @@
 
 新人指引
 
+## 开发约定
+
+1. 每个 `Java` 工程文件必须加上创建人以及日期
+
+```java
+/**
+ * Created by Lucien on 2019/10/01 00:17
+ * （如果有必要，这里写一些额外的文件说明）
+ */
+```
+
+2. 日志一律使用 `@Slf4j`
+3. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
+
 ## Markdown 书写规范
 
 https://github.com/ruanyf/document-style-guide
