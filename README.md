@@ -1,6 +1,6 @@
 # README
 
-Introduce something
+新人指引
 
 ## Markdown 书写规范
 
