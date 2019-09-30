@@ -17,6 +17,8 @@ public class Example {}
 2. 日志一律使用 `@Slf4j`
 3. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
 4. 代码规范参考 https://github.com/alibaba/p3c
+5. 请正确配置 `git config user.name` 以及 `git config user.email`
+6. `git commit` 时请尽可能使用英文
 
 ## Markdown 书写规范
 
