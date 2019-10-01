@@ -8,8 +8,8 @@
 
 ```java
 /**
- * Created by Lucien on 2019/10/01 00:17
- * （如果有必要，这里写一些额外的文件说明）
+ * @author Lucien
+ * @date 2019/10/01 00:17
  */
 public class Example {}
 ```
@@ -20,6 +20,7 @@ public class Example {}
 5. 请正确配置 `git config user.name` 以及 `git config user.email`
 6. `git commit` 时请尽可能使用英文
 7. 在对 `submodule` 进行更改之前 **请务必执行** `git checkout master`
+8. 请使用 Alibaba 代码规约插件 https://github.com/alibaba/p3c/tree/master/idea-plugin
 
 ## Markdown 书写规范
 
