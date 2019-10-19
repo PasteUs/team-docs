@@ -4,23 +4,27 @@
 
 ## 开发约定
 
-1. 每个 `Java` 工程文件必须加上创建人以及日期
+1. 每个 `Java` 工程文件必须加上 `@author` ，代表参与编写的人，多个人用英文逗号分隔，`,` 后面需有空格
+2. 每个 `Java` 工程文件必须加上 `@version`，在文件变更时对 `@version` 进行相应的变更
+  2.1 小修补之类的对末位进行更改，如 `1.0.0` -> `1.0.1`
+  2.2 有功能上的更新，对中间位进行更改，如 `1.0.0` -> `1.1.0`
+  2.3 有较大更新，且 **移除** 或 **不兼容** 以往的接口，对首位进行变更，如 `1.0.0` -> `2.0.0`
 
 ```java
 /**
- * @author Lucien
- * @date 2019/10/01 00:17
+ * @author Lucien, Irene
+ * @version 1.0.0
  */
 public class Example {}
 ```
 
-2. 日志一律使用 `@Slf4j`
-3. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
-4. 代码规范参考 https://github.com/alibaba/p3c
-5. 请正确配置 `git config user.name` 以及 `git config user.email`
-6. `git commit` 时请尽可能使用英文
-7. 在对 `submodule` 进行更改之前 **请务必执行** `git checkout master`
-8. 请使用 Alibaba 代码规约插件 https://github.com/alibaba/p3c/tree/master/idea-plugin
+3. 日志一律使用 `@Slf4j`
+4. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
+5. 代码规范参考 https://github.com/alibaba/p3c
+6. 请正确配置 `git config user.name` 以及 `git config user.email`
+7. `git commit` 时请尽可能使用英文
+8. 在对 `submodule` 进行更改之前 **请务必执行** `git checkout master`
+9. 请使用 Alibaba 代码规约插件 https://github.com/alibaba/p3c/tree/master/idea-plugin
 
 ## Markdown 书写规范
 
