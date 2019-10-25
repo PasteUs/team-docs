@@ -50,5 +50,5 @@ https://github.com/orgs/PasteUs/projects/1
 | master | [pre.pasteme.lucien.ink](http://pre.pasteme.lucien.ink) |
 | dev | [dev.pasteme.lucien.ink](http://dev.pasteme.lucien.ink) |
 
-将分支的更改应用至线上需要一定时间，同步状态可以在 [status.pasteme.lucien.ink](http://status.pasteme.lucien.ink) 查看
+将分支的更改应用至线上需要一定时间，同步状态可以在 [pasteus.github.io/PasteMeMonitor/](https://pasteus.github.io/PasteMeMonitor/) 查看
 
