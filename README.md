@@ -37,7 +37,7 @@ public class Example {}
 
 1. 请正确配置 `git config user.name` 以及 `git config user.email`
 2. `git commit` 时请尽可能使用英文
-3. 在对 `submodule` 进行更改之前 **请务必执行** `git checkout master`
+3. 在进行更改时先将项目克隆至自己的仓库，然后新建一个分支，分支名格式为 `feature/<feature_name>` 或 `bugfix/<bug_name>`，譬如 `feature/check_result_support`、`bugfix/fix_sql_error`，然后发 `pull request` 至项目的 `dev` 分支。
 
 ### 1.3 Markdown
 
