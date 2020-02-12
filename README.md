@@ -47,9 +47,22 @@ https://github.com/ruanyf/document-style-guide
 
 https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md
 
-## 2. PasteMe 项目管理
+## 2. PasteMe 项目进度
 
 https://github.com/orgs/PasteUs/projects/1
+
+### 2.1 参与开发
+
+大致分以下几个步骤：
+
+1. 开发
+2. 功能自测
+3. 向 `dev` 分支提交 `pull request`，review 通过后合并至 dev
+4. `dev` 环境线上功能自测
+5. 联调（如果需要）
+6. 验收测试
+7. 上线
+
 
 ## 3. 线上环境
 
