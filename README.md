@@ -30,7 +30,7 @@ public class Example {}
 
 3. 日志一律使用 `@Slf4j`
 4. 不允许直接变更 `dev`、`master` 分支，需 `clone` 至自己的仓库之后进行 `pull request`
-5. 代码规范参考 https://github.com/alibaba/p3c
+5. **请务必遵守阿里巴巴 Java 代码规范 https://github.com/alibaba/p3c**
 6. 请使用 Alibaba 代码规约插件 https://github.com/alibaba/p3c/tree/master/idea-plugin
 
 ### 1.2 Git
