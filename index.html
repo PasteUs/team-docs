@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PasteMe Docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <style>#cover-logo{border-radius:50%;}</style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      name: 'PasteMe Team Docs',
+      repo: 'https://github.com/LucienShui/PasteMe',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      coverpage: true,
+      onlyCover: true,
+      auto2top: true,
+      nameLink: {
+        "/": "/#/README",
+        // "/deploy/directly/": "/#/deploy/docker"
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            var url = 'https://github.com/PasteUs/docs/blob/master/docs/' + vm.route.file;
+            var editHtml = '[📝 在 GitHub 上编辑此页](' + url + ')\n';
+
+            return (
+              html + '\n---\n' + editHtml
+            );
+          });
+        }
+      ]
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
