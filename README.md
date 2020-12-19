@@ -2,11 +2,21 @@
 
 PasteUs 团队新人指引
 
-# 贡献内容
+# 1. 贡献内容
 
-在 [本仓库](https://github.com/PasteUs/team-docs) 下，选择一个合适的位置，创建 `.md` 格式的文件。
+如果需要为此文档贡献内容，请仔细阅读本节。
 
-创建完之后，在 [_sidebar.md](https://github.com/PasteUs/team-docs/blob/main/_sidebar.md) 中按照格式引入此文件即可。
+## 1.1 添加 md 文件
+
+在 [本仓库](https://github.com/PasteUs/team-docs) 下，选择一个合适的位置，放入 `.md` 格式的文件。也可直接点击 [新建文件](https://github.com/PasteUs/team-docs/new/main) 的链接。
+
+## 1.2 将文档添加进侧边栏
+
+> 参考 [docsify 定制侧边栏](https://docsify.js.org/#/zh-cn/more-pages?id=%e5%ae%9a%e5%88%b6%e4%be%a7%e8%be%b9%e6%a0%8f)
+
+添加完 `.md` 文件之后，在 [_sidebar.md](https://github.com/PasteUs/team-docs/blob/main/_sidebar.md) 中按照格式引入此文件即可。
+
+## 1.3 预览更改
 
 可通过运行本仓库根目录下的 [serve.sh](https://github.com/PasteUs/team-docs/blob/main/serve.sh) 来预览修改后的页面，地址为 [http://localhost:3000](http://localhost:3000)。
 
@@ -14,7 +24,7 @@ PasteUs 团队新人指引
 sh serve.sh
 ```
 
-# 加入我们
+# 2. 加入我们
 
 欢迎各位小伙伴加入我们：[join.pasteme.cn](https://www.wjx.top/jq/46847776.aspx)
 
@@ -22,9 +32,9 @@ QQ 群：
 
 ![](https://cdn.jsdelivr.net/gh/PasteUs/CDN@0.0.60/screenshot/pasteme/PasteUsQQGroup.JPG)
 
-# 规约
+# 3. 规约
 
-## Java
+## 3.1 Java
 
 1. 每个 `*.java` 文件必须加上 `@author` ，代表参与编写的人，多个人用英文逗号分隔，`,` 后面需有空格
 2. 每个 `*.java` 工程文件必须加上 `@version`，在文件变更时对 `@version` 进行相应的变更
@@ -45,26 +55,26 @@ public class Example {}
 5. **请务必遵守阿里巴巴 Java 代码规范 https://github.com/alibaba/p3c**
 6. 请使用 Alibaba 代码规约插件 https://github.com/alibaba/p3c/tree/master/idea-plugin
 
-## Git
+## 3.2 Git
 
 1. 请正确配置 `git config user.name` 以及 `git config user.email`
 2. `git commit` 时请尽可能使用英文
 3. 在进行更改时先将项目克隆至自己的仓库，然后新建一个分支，分支名格式为 `feature/<feature_name>` 或 `bugfix/<bug_name>`，譬如 `feature/check_result_support`、`bugfix/fix_sql_error`，然后发 `pull request` 至项目的 `dev` 分支。
 4. 对 `git` 不熟悉的话请先学习如何使用 `git`，以免浪费不必要的时间。推荐一个学习 `git` 的网站：[learngitbranching.js.org](https://learngitbranching.js.org/)，中文版：[learngitbranching.js.org/?locale=zh_CN](https://learngitbranching.js.org/?locale=zh_CN)。
 
-## Markdown
+## 3.3 Markdown
 
 https://github.com/ruanyf/document-style-guide
 
-## Commits、Issues 等排版
+## 3.4 Commits、Issues 等排版
 
 https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md
 
-# PasteMe 项目进度
+# 4. PasteMe 项目进度
 
 https://github.com/orgs/PasteUs/projects/1
 
-## 参与开发
+## 4.1 参与开发
 
 大致分以下几个步骤：
 
@@ -77,7 +87,7 @@ https://github.com/orgs/PasteUs/projects/1
 7. 上线
 
 
-# 线上环境
+# 5. 线上环境
 
 目前线上的项目为 `PasteUs/PasteMeFrontend` 和 `PasteUs/PasteMeGoBackend`
 
@@ -94,11 +104,11 @@ https://github.com/orgs/PasteUs/projects/1
 将分支的更改应用至线上需要一定时间，同步状态可以在 [pasteus.github.io/PasteMeMonitor/](https://pasteus.github.io/PasteMeMonitor/) 查看
 
 
-# 项目说明
+# 6. 项目说明
 
-## PasteMe 系
+## 6.1 PasteMe 系
 
-### Java
+### 6.1.1 Java
 
 | 项目 | 作用 | 依赖 |
 | :---: | :---: | :---: |
@@ -108,21 +118,21 @@ https://github.com/orgs/PasteUs/projects/1
 | [PasteMeAdmin](https://github.com/PasteUs/PasteMeAdmin) | PasteMe 后台管理模块，主要负责 Paste 的管理，以及算法业务化 | PasteMeRoot、PasteMeCommon、PasteMeAlgorithm |
 | [PasteMeAlgorithm](https://github.com/PasteUs/PasteMeAlgorithm) | PasteMe 算法模块，主要负责各种算法实现 | PasteMeRoot |
 
-### Vue
+### 6.1.2 Vue
 
 | 项目 | 作用 | 依赖 |
 | :---: | :---: | :---: |
 | [PasteMeFrontend](https://github.com/PasteUs/PasteMeFrontend) | PasteMe 前端 | 无 |
 | [PasteMeMonitor](https://github.com/PasteUs/PasteMeMonitor) | PasteMe 监控模块，监控前后端的运行情况 | 无 |
 
-### Golang
+### 6.1.3 Golang
 
 | 项目 | 作用 | 依赖 |
 | :---: | :---: | :---: |
 | [PasteMeLite](https://github.com/PasteUs/PasteMeLite) | 由于很多小伙伴并不太会部署，所以提供 Lite 版，做到**随处执行，随处使用** | PasteMeGoBackend、PasteMeFrontend |
 | [PasteMeGoBackend](https://github.com/PasteUs/PasteMeGoBackend) | PasteMe 后端 Golang 实现的版本，线上准备切换至 Java 版本，Go 版本并入 PasteMeLite 项目 | 无 |
 
-## 其它
+## 6.2 其它
 
 | 项目 | 作用 | 依赖 |
 | :---: | :---: | :---: |
