@@ -1,6 +1,18 @@
-# PasteUs README
+# PasteUs README <!-- {docsify-ignore-all} -->
 
 PasteUs 团队新人指引
+
+# 贡献内容
+
+在 [本仓库](https://github.com/PasteUs/team-docs) 下，选择一个合适的位置，创建 `.md` 格式的文件。
+
+创建完之后，在 [_sidebar.md](https://github.com/PasteUs/team-docs/blob/main/_sidebar.md) 中按照格式引入此文件即可。
+
+可通过运行本仓库根目录下的 [serve.sh](https://github.com/PasteUs/team-docs/blob/main/serve.sh) 来预览修改后的页面，地址为 [http://localhost:3000](http://localhost:3000)。
+
+```bash
+sh serve.sh
+```
 
 # 加入我们
 
