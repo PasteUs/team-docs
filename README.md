@@ -98,11 +98,13 @@ https://github.com/orgs/PasteUs/projects/1
 | 分支 / Tag | 网址 |
 | :---: | :---: |
 | release | [pasteme.cn](https://pasteme.cn) |
+| master | [beta.pasteme.lucien.ink](http://beta.pasteme.lucien.ink) |
+<!--
 | master | [pre.pasteme.lucien.ink](http://pre.pasteme.lucien.ink) |
 | dev | [dev.pasteme.lucien.ink](http://dev.pasteme.lucien.ink) |
 
 将分支的更改应用至线上需要一定时间，同步状态可以在 [pasteus.github.io/PasteMeMonitor/](https://pasteus.github.io/PasteMeMonitor/) 查看
-
+-->
 
 # 6. 项目说明
 
